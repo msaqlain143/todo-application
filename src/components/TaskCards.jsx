@@ -3,7 +3,10 @@ import React from "react";
 const TaskCards = () => {
   return (
     <div>
-      <div className="card w-96 bg-primary-100 card-xs shadow-sm">
+      <div
+        className="card w-96 bg-primary
+      -100 card-xs shadow-sm"
+      >
         <div className="card-body">
           <h2 className="card-title">Xsmall Card</h2>
           <p>
@@ -11,7 +14,12 @@ const TaskCards = () => {
             are title and actions parts
           </p>
           <div className="justify-end card-actions">
-            <button className="btn btn-primary">Buy Now</button>
+            <button
+              className="btn btn-secondary
+            "
+            >
+              Delete
+            </button>
           </div>
         </div>
       </div>
